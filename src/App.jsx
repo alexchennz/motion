@@ -8,19 +8,25 @@ import KeyframeAnimation from './components/KeyframeAnimation'
 import ExpandingCard from './components/ExpandingCard'
 import ReorderingList from './components/ReorderingList'
 import ExpandingSidebar from './components/ExpandingSidebar'
+import ExpandingGrid from './components/ExpandingGrid'
+import ModalExample from './components/ModalExample'
+import WiggleButton from './components/WiggleButton'
 
 function App() {
 
   return (
     <>
-      {/* <FadeinAnimation /> */}
+      <FadeinAnimation />
       {/* <HoverAndTap /> */}
       {/* <Dragging /> */}
       {/* <ExitAnimations /> */}
       {/* <KeyframeAnimation /> */}
       {/* <ExpandingCard /> */}
       {/* <ReorderingList /> */}
-      <ExpandingSidebar />
+      {/* <ExpandingSidebar /> */}
+      {/* <ExpandingGrid /> */}
+      {/* <ModalExample /> */}
+      {/* <WiggleButton /> */}
     </>
   )
 }
